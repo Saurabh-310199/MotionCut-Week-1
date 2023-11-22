@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class RandomNumGame {
 	public static void main(String[] args) {
-		
+		// create a object for random class
 		Random ran = new Random();
 		
 		int randomnum = ran.nextInt(100) + 1;
 		
-		//System.out.println("Your Random No. is "+ randomnum);
+		
 		
 		int tryCount =0;
 		
